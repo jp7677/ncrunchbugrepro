@@ -9,5 +9,11 @@ namespace NCrunchBugRepro
         {
             return Ok();
         }
+
+        [HttpGet("Home")]
+        public IActionResult Home()
+        {
+            return new ViewResult();
+        }
     }
 }
