@@ -111,6 +111,7 @@ _TeamCity*
 *.dotCover
 
 # NCrunch
+**/*.ncrunchproject
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
